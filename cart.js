@@ -50,7 +50,6 @@ function addItem(cart = [], item = "", quantity = 0)
 
         return cart;
     }
-
 }
 
 function removeItem(cart, item)
@@ -79,7 +78,6 @@ function removeItem(cart, item)
 
         return cart;
     }
-
 }
 
 function getTotalItems(cart)
@@ -101,23 +99,6 @@ function getTotalItems(cart)
         return 0;
     }       
 }
-
-
-/*
-
-//testing locally
-let cart = [];
-
-cart = addItem(cart, "peanut butter", 5);
-//cart = addItem(cart, "pizza", 15);
-//cart = addItem(cart, "chocolate", 16);
-console.log(cart);
-console.log();
-console.log(removeItem(cart, "pizza"));
-console.log();
-console.log(getTotalItems(cart));
-*/
-
 
 
 module.exports =

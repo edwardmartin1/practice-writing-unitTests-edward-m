@@ -1,5 +1,4 @@
 const cart = require("../cart.js");
-//const addItem = require("../cart.js");
 
 describe("addItem", function()
 {
@@ -62,8 +61,6 @@ describe("addItem", function()
             expect(cart.getTotalItems([{item: "pizza", quantity: 500000}, {item: "chocolate", quantity: 500000}]))
             .toEqual(1000000);
         });
-
-
 });
 
 
