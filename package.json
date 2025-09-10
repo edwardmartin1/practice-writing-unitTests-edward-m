@@ -1,0 +1,23 @@
+{
+  "name": "practice-writing-unittests-edward-m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardmartin1/practice-writing-unitTests-edward-m.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardmartin1/practice-writing-unitTests-edward-m/issues"
+  },
+  "homepage": "https://github.com/edwardmartin1/practice-writing-unitTests-edward-m#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
