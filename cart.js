@@ -104,6 +104,8 @@ function getTotalItems(cart)
 
 
 /*
+
+//testing locally
 let cart = [];
 
 cart = addItem(cart, "peanut butter", 5);
