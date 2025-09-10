@@ -103,23 +103,25 @@ function getTotalItems(cart)
 }
 
 
+/*
 let cart = [];
 
 cart = addItem(cart, "peanut butter", 5);
-cart = addItem(cart, "pizza", 15);
-cart = addItem(cart, "chocolate", 16);
+//cart = addItem(cart, "pizza", 15);
+//cart = addItem(cart, "chocolate", 16);
 console.log(cart);
 console.log();
 console.log(removeItem(cart, "pizza"));
 console.log();
 console.log(getTotalItems(cart));
+*/
 
-/*
+
+
 module.exports =
 {
-    addItem: addItem//,
-    //removeItem: removeItem,
-    //getTotalItems: getTotalItems
+    addItem: addItem,
+    removeItem: removeItem,
+    getTotalItems: getTotalItems
 };
 
-*/
