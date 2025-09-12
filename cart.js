@@ -32,14 +32,17 @@ function addItem(cart = [], item = "", quantity = 0)
         {
             throw new Error("Quantity must be great than 0.");
         }
-    
-        let newItem =
-        {
-            item: item,
-            quantity: quantity
-        };
 
-        cart.push(newItem);
+        let existingItemIndex = cart.findIndex((objectName) => objectName.item === item);
+        
+        if (existingItemIndex === -1)
+        {
+            cart.push({item: item, quantity: quantity});
+        }
+        else
+        {
+            cart[existingItemIndex].quantity += quantity;
+        }
 
         return cart;
     }

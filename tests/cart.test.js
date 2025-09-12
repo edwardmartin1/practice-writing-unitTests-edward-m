@@ -1,6 +1,6 @@
 const cart = require("../cart.js");
 
-describe("addItem", function()
+describe("The addItem function", function()
 {
     test("should return an array with the added item and quantity", 
         function()
@@ -19,7 +19,11 @@ describe("addItem", function()
         {
             expect(cart.addItem([], "pizza", 0)).toEqual([]);
         });
+});
 
+
+describe("The removeItem function", function()
+{
     test("should return an array with 1 item remaining", 
         function()
         {
@@ -40,7 +44,11 @@ describe("addItem", function()
             expect(cart.removeItem([{item: "pizza", quantity: 5}], "pizza"))
             .toEqual([]);
         });
+});
 
+
+describe("The getTotalItems function", function()
+{
     test("should return the total quantity of items in cart", 
         function()
         {
@@ -62,10 +70,6 @@ describe("addItem", function()
             .toEqual(1000000);
         });
 });
-
-
-
-
 
 
 
